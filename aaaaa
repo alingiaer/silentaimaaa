@@ -37,7 +37,7 @@ local tableinsert = table.insert
 getgenv().Aiming = {
     Enabled = true,
 
-    ShowFOV = true ,
+    ShowFOV = true,
     FOV = 119,
     FOVSides = 300,
     FOVColour = Color3fromRGB(0, 39, 255),
@@ -91,6 +91,7 @@ function Aiming.UpdateFOV()
     -- // Return circle
     return circle
 end
+
 
 -- // Custom Functions
 local CalcChance = function(percentage)
